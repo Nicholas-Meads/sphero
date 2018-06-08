@@ -49,7 +49,7 @@ async function startProgram() {
       g: 0,
       b: 0
     });
-    setHeading((getHeading() + 180));
+    setHeading(getHeading() + 180);
     setSpeed(200);
   } else {
     setMainLed({
@@ -57,6 +57,7 @@ async function startProgram() {
   		g: 255,
   		b: 255
   	});
+    setHeading(getHeading() + 90);
   	setSpeed(200);
   }
 }
